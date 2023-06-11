@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Signika+Negative:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(219, 210, 210);
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    font-size: 20px;
+    transition: transfor, 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: aqua; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    height: 58vhvh;
+    width: 80vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+}
+.name{
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.moreabout{
+    font-size: 20px;
+    font-family:'Lato', sans-serif;
+    color: rgb(85, 79, 79);
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(18, 106, 193);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons btn{
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(18, 106, 193);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    padding: 30px;
+    width: 410px;
+}
+
+/* Contact Form */
+.contactForm{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Lato', sans-serif;
+}
+.contactForm h1{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 13px 0;
+}
+.contactForm form div{
+    padding: 10px 0;
+    font-size: 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.contactForm form div input{
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: blueviolet;
+    margin: 0 5px;
+}
+.btn-sm{
+    font-size: 10px;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 23px;
+}
+p{
+    font-family: monospace;
+    font-weight: 300;
+    font-size: large;
+    color: gray;
+}
+.intro h2{
+    margin: 12 12px;
+}
+.skillContainer{
+    padding: 10px;
+}
+.skillItem{
+    display:flex;
+    align-items:center;
+    font-weight: bold;
+    color: rgb(45, 39, 39);
+}
+.skill{
+    width: 250px;
+    height: 8px;
+    background-color: rgb(66, 233, 66);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+    background-color: rgb(3, 34, 3);
+}
+.fifty{
+    width:125px;
+    background-color: rgb(6, 85, 6);
+}
+.t5{
+    width: 75px;
+    background-color: rgb(16, 157, 16);
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.hamp
+{
+    margin-left: 34px;
+}
+.cross
+{
+    margin-left: 163px;
+    margin-top: -5px;
+}
+@media screen and (max-width: 816px)
+{
+    .devPic{
+        display: none
+    }
+}
+/* {
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+} */
+
